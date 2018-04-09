@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="TamagotchiHotelModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="HotelKamer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="HoeveelheidBedden" Type="int" Nullable="false" />
+          <Property Name="KamerType" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Tamagotchi">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="HotelKamerID" Type="int" />
+          <Property Name="Naam" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Kleur" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Leeftijd" Type="int" Nullable="false" />
+          <Property Name="Centjes" Type="int" Nullable="false" />
+          <Property Name="Level" Type="int" Nullable="false" />
+          <Property Name="Gezondheid" Type="int" Nullable="false" />
+          <Property Name="Verveling" Type="int" Nullable="false" />
+          <Property Name="Dood" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Type">
+          <Key>
+            <PropertyRef Name="KamerType" />
+          </Key>
+          <Property Name="KamerType" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_HotelKamer_Type">
+          <End Role="Type" Type="Self.Type" Multiplicity="1" />
+          <End Role="HotelKamer" Type="Self.HotelKamer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Type">
+              <PropertyRef Name="KamerType" />
+            </Principal>
+            <Dependent Role="HotelKamer">
+              <PropertyRef Name="KamerType" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tamagotchi_HotelKamer">
+          <End Role="HotelKamer" Type="Self.HotelKamer" Multiplicity="0..1" />
+          <End Role="Tamagotchi" Type="Self.Tamagotchi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HotelKamer">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Tamagotchi">
+              <PropertyRef Name="HotelKamerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="TamagotchiHotelModelStoreContainer">
+          <EntitySet Name="HotelKamer" EntityType="Self.HotelKamer" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tamagotchi" EntityType="Self.Tamagotchi" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Type" EntityType="Self.Type" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_HotelKamer_Type" Association="Self.FK_HotelKamer_Type">
+            <End Role="Type" EntitySet="Type" />
+            <End Role="HotelKamer" EntitySet="HotelKamer" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tamagotchi_HotelKamer" Association="Self.FK_Tamagotchi_HotelKamer">
+            <End Role="HotelKamer" EntitySet="HotelKamer" />
+            <End Role="Tamagotchi" EntitySet="Tamagotchi" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TamagotchiHotelModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="TamagotchiHotelEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="HotelKamer" EntityType="TamagotchiHotelModel.HotelKamer" />
+          <EntitySet Name="Tamagotchi" EntityType="TamagotchiHotelModel.Tamagotchi" />
+          <EntitySet Name="Type" EntityType="TamagotchiHotelModel.Type" />
+          <AssociationSet Name="FK_HotelKamer_Type" Association="TamagotchiHotelModel.FK_HotelKamer_Type">
+            <End Role="Type" EntitySet="Type" />
+            <End Role="HotelKamer" EntitySet="HotelKamer" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tamagotchi_HotelKamer" Association="TamagotchiHotelModel.FK_Tamagotchi_HotelKamer">
+            <End Role="HotelKamer" EntitySet="HotelKamer" />
+            <End Role="Tamagotchi" EntitySet="Tamagotchi" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="HotelKamer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="HoeveelheidBedden" Type="Int32" Nullable="false" />
+          <Property Name="KamerType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Type" Relationship="TamagotchiHotelModel.FK_HotelKamer_Type" FromRole="HotelKamer" ToRole="Type" />
+          <NavigationProperty Name="Tamagotchi" Relationship="TamagotchiHotelModel.FK_Tamagotchi_HotelKamer" FromRole="HotelKamer" ToRole="Tamagotchi" />
+        </EntityType>
+        <EntityType Name="Tamagotchi">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="HotelKamerID" Type="Int32" />
+          <Property Name="Naam" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Kleur" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Leeftijd" Type="Int32" Nullable="false" />
+          <Property Name="Centjes" Type="Int32" Nullable="false" />
+          <Property Name="Level" Type="Int32" Nullable="false" />
+          <Property Name="Gezondheid" Type="Int32" Nullable="false" />
+          <Property Name="Verveling" Type="Int32" Nullable="false" />
+          <Property Name="Dood" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="HotelKamer" Relationship="TamagotchiHotelModel.FK_Tamagotchi_HotelKamer" FromRole="Tamagotchi" ToRole="HotelKamer" />
+        </EntityType>
+        <EntityType Name="Type">
+          <Key>
+            <PropertyRef Name="KamerType" />
+          </Key>
+          <Property Name="KamerType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="HotelKamer" Relationship="TamagotchiHotelModel.FK_HotelKamer_Type" FromRole="Type" ToRole="HotelKamer" />
+        </EntityType>
+        <Association Name="FK_HotelKamer_Type">
+          <End Type="TamagotchiHotelModel.Type" Role="Type" Multiplicity="1" />
+          <End Type="TamagotchiHotelModel.HotelKamer" Role="HotelKamer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Type">
+              <PropertyRef Name="KamerType" />
+            </Principal>
+            <Dependent Role="HotelKamer">
+              <PropertyRef Name="KamerType" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tamagotchi_HotelKamer">
+          <End Type="TamagotchiHotelModel.HotelKamer" Role="HotelKamer" Multiplicity="0..1" />
+          <End Type="TamagotchiHotelModel.Tamagotchi" Role="Tamagotchi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HotelKamer">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Tamagotchi">
+              <PropertyRef Name="HotelKamerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="TamagotchiHotelModelStoreContainer" CdmEntityContainer="TamagotchiHotelEntities">
+          <EntitySetMapping Name="HotelKamer">
+            <EntityTypeMapping TypeName="TamagotchiHotelModel.HotelKamer">
+              <MappingFragment StoreEntitySet="HotelKamer">
+                <ScalarProperty Name="KamerType" ColumnName="KamerType" />
+                <ScalarProperty Name="HoeveelheidBedden" ColumnName="HoeveelheidBedden" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tamagotchi">
+            <EntityTypeMapping TypeName="TamagotchiHotelModel.Tamagotchi">
+              <MappingFragment StoreEntitySet="Tamagotchi">
+                <ScalarProperty Name="Dood" ColumnName="Dood" />
+                <ScalarProperty Name="Verveling" ColumnName="Verveling" />
+                <ScalarProperty Name="Gezondheid" ColumnName="Gezondheid" />
+                <ScalarProperty Name="Level" ColumnName="Level" />
+                <ScalarProperty Name="Centjes" ColumnName="Centjes" />
+                <ScalarProperty Name="Leeftijd" ColumnName="Leeftijd" />
+                <ScalarProperty Name="Kleur" ColumnName="Kleur" />
+                <ScalarProperty Name="Naam" ColumnName="Naam" />
+                <ScalarProperty Name="HotelKamerID" ColumnName="HotelKamerID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Type">
+            <EntityTypeMapping TypeName="TamagotchiHotelModel.Type">
+              <MappingFragment StoreEntitySet="Type">
+                <ScalarProperty Name="KamerType" ColumnName="KamerType" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

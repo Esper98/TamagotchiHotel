@@ -1,0 +1,5 @@
+C:\Users\Esper\Downloads\TamagotchiHotelMoreTabels\TamagotchiHotelMoreTabels\.vs\TamagotchiHotel\lut\0\b\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.dll
+C:\Users\Esper\Downloads\TamagotchiHotelMoreTabels\TamagotchiHotelMoreTabels\.vs\TamagotchiHotel\lut\0\b\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.pdb
+C:\Users\Esper\Downloads\TamagotchiHotelMoreTabels\TamagotchiHotelMoreTabels\.vs\TamagotchiHotel\lut\0\i\TamagotchiHotel.Tests\Debug\TamagotchiHotel.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Esper\Downloads\TamagotchiHotelMoreTabels\TamagotchiHotelMoreTabels\.vs\TamagotchiHotel\lut\0\i\TamagotchiHotel.Tests\Debug\TamagotchiHotel.Tests.dll
+C:\Users\Esper\Downloads\TamagotchiHotelMoreTabels\TamagotchiHotelMoreTabels\.vs\TamagotchiHotel\lut\0\i\TamagotchiHotel.Tests\Debug\TamagotchiHotel.Tests.pdb

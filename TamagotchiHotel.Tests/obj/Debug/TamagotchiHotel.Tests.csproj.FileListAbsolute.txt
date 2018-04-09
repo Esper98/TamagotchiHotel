@@ -1,0 +1,174 @@
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.pdb
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.csprojResolveAssemblyReference.cache
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.pdb
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Esper\Downloads\TamagotchiHotelMoreTabels\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.dll
+C:\Users\Esper\Downloads\TamagotchiHotelMoreTabels\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.pdb
+C:\Users\Esper\Downloads\TamagotchiHotelMoreTabels\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Esper\Downloads\TamagotchiHotelMoreTabels\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Esper\Downloads\TamagotchiHotelMoreTabels\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Esper\Downloads\TamagotchiHotelMoreTabels\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.dll
+C:\Users\Esper\Downloads\TamagotchiHotelMoreTabels\TamagotchiHotelMoreTabels\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.pdb
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.pdb
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.dll.config
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.pdb
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Castle.Core.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Moq.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.ValueTuple.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.abstractions.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.assert.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.core.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.execution.desktop.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.pdb
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.dll.config
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Castle.Core.xml
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Moq.pdb
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Moq.xml
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.abstractions.xml
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.assert.xml
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.core.xml
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.execution.desktop.xml
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Esper\Downloads\TamagotchiHotel (1)\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.dll.config
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.pdb
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Castle.Core.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\EntityFramework.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Moq.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.ValueTuple.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.abstractions.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.assert.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.core.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.execution.desktop.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.pdb
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Castle.Core.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\EntityFramework.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Moq.pdb
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Moq.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.abstractions.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.assert.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.core.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.execution.desktop.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.csprojResolveAssemblyReference.cache
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotelMetTesten\TamagotchiHotel\TamagotchiHotel\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.pdb
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.dll.config
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.Tests.pdb
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Castle.Core.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\EntityFramework.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Moq.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.ValueTuple.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.abstractions.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.assert.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.core.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.execution.desktop.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\TamagotchiHotel.pdb
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Castle.Core.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\EntityFramework.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Moq.pdb
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\Moq.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.abstractions.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.assert.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.core.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\bin\Debug\xunit.execution.desktop.xml
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.csprojResolveAssemblyReference.cache
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.dll
+C:\Users\adam-\OneDrive\Documenten\Visual Studio 2015\Projects\Blok 2\TamagotchiHotel\TamagotchiHotel.Tests\obj\Debug\TamagotchiHotel.Tests.pdb

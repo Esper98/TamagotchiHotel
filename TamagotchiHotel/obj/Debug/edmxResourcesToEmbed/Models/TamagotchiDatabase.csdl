@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TamagotchiHotelModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TamagotchiHotelEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="HotelKamer" EntityType="TamagotchiHotelModel.HotelKamer" />
+    <EntitySet Name="Tamagotchi" EntityType="TamagotchiHotelModel.Tamagotchi" />
+    <EntitySet Name="Type" EntityType="TamagotchiHotelModel.Type" />
+    <AssociationSet Name="FK_HotelKamer_Type" Association="TamagotchiHotelModel.FK_HotelKamer_Type">
+      <End Role="Type" EntitySet="Type" />
+      <End Role="HotelKamer" EntitySet="HotelKamer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tamagotchi_HotelKamer" Association="TamagotchiHotelModel.FK_Tamagotchi_HotelKamer">
+      <End Role="HotelKamer" EntitySet="HotelKamer" />
+      <End Role="Tamagotchi" EntitySet="Tamagotchi" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="HotelKamer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="HoeveelheidBedden" Type="Int32" Nullable="false" />
+    <Property Name="KamerType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Type" Relationship="TamagotchiHotelModel.FK_HotelKamer_Type" FromRole="HotelKamer" ToRole="Type" />
+    <NavigationProperty Name="Tamagotchi" Relationship="TamagotchiHotelModel.FK_Tamagotchi_HotelKamer" FromRole="HotelKamer" ToRole="Tamagotchi" />
+  </EntityType>
+  <EntityType Name="Tamagotchi">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="HotelKamerID" Type="Int32" />
+    <Property Name="Naam" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Kleur" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Leeftijd" Type="Int32" Nullable="false" />
+    <Property Name="Centjes" Type="Int32" Nullable="false" />
+    <Property Name="Level" Type="Int32" Nullable="false" />
+    <Property Name="Gezondheid" Type="Int32" Nullable="false" />
+    <Property Name="Verveling" Type="Int32" Nullable="false" />
+    <Property Name="Dood" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="HotelKamer" Relationship="TamagotchiHotelModel.FK_Tamagotchi_HotelKamer" FromRole="Tamagotchi" ToRole="HotelKamer" />
+  </EntityType>
+  <EntityType Name="Type">
+    <Key>
+      <PropertyRef Name="KamerType" />
+    </Key>
+    <Property Name="KamerType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="HotelKamer" Relationship="TamagotchiHotelModel.FK_HotelKamer_Type" FromRole="Type" ToRole="HotelKamer" />
+  </EntityType>
+  <Association Name="FK_HotelKamer_Type">
+    <End Type="TamagotchiHotelModel.Type" Role="Type" Multiplicity="1" />
+    <End Type="TamagotchiHotelModel.HotelKamer" Role="HotelKamer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Type">
+        <PropertyRef Name="KamerType" />
+      </Principal>
+      <Dependent Role="HotelKamer">
+        <PropertyRef Name="KamerType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tamagotchi_HotelKamer">
+    <End Type="TamagotchiHotelModel.HotelKamer" Role="HotelKamer" Multiplicity="0..1" />
+    <End Type="TamagotchiHotelModel.Tamagotchi" Role="Tamagotchi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HotelKamer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Tamagotchi">
+        <PropertyRef Name="HotelKamerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

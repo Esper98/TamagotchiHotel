@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="eb67225b14704c37b9debbb9544bd2bc" Name="Diagram1">
+        <EntityTypeShape EntityType="TamagotchiHotelModel.HotelKamer" Width="1.5" PointX="4.25" PointY="1.5" />
+        <EntityTypeShape EntityType="TamagotchiHotelModel.Tamagotchi" Width="1.5" PointX="7.375" PointY="1" />
+        <EntityTypeShape EntityType="TamagotchiHotelModel.Type" Width="1.5" PointX="0.75" PointY="1.875" />
+        <AssociationConnector Association="TamagotchiHotelModel.FK_HotelKamer_Type" />
+        <AssociationConnector Association="TamagotchiHotelModel.FK_Tamagotchi_HotelKamer" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[HotelKamer] (Table)
+       [dbo].[Tamagotchi] (Table)
+       [dbo].[Type] (Table)
+       Default Constraint: unnamed constraint on [dbo].[HotelKamer] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Tamagotchi] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Tamagotchi] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Tamagotchi] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Tamagotchi] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Tamagotchi] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Tamagotchi] (Default Constraint)
+       [dbo].[FK_HotelKamer_Type] (Foreign Key)
+       [dbo].[FK_Tamagotchi_HotelKamer] (Foreign Key)
+
+** Supporting actions

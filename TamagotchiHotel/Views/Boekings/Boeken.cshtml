@@ -1,0 +1,295 @@
+﻿@using TamagotchiHotel.ViewModels
+@model BoekingViewModel
+
+@{
+    ViewBag.Title = "Boeken";
+}
+
+<h2>Kamer Boeken</h2>
+<h3>Kamer: @Html.DisplayFor(model => model.Kamer.FirstOrDefault().Id, new { htmlAttributes = new { @class = "form-control" } }) | @Html.DisplayFor(model => model.Kamer.FirstOrDefault().KamerType, new { htmlAttributes = new { @class = "form-control" } })</h3>
+
+<h2>Voeg een tamagotchi toe</h2>
+<table class="table">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Naam
+        </th>
+        <th>
+            Kleur
+        </th>
+        <th>
+            Leeftijd
+        </th>
+        <th>
+            Centjes
+        </th>
+        <th>
+            Level
+        </th>
+        <th>
+            Gezondheid
+        </th>
+        <th>
+            Verveling
+        </th>
+        <th></th>
+    </tr>
+
+    @*First option*@
+    @if (Model.Kamer.ToList().FirstOrDefault().KamerType == "WerkKamer")
+    {
+        foreach (var item in Model.Tamagotchi)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Naam)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Kleur)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Leeftijd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Centjes)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Level)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gezondheid)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Verveling)
+                </td>
+                <td>
+                    @*@using (Html.BeginForm("Boeken", "BoekingsController", new { item}))
+                        {
+                            <input type="submit" value="Voeg toe" />
+                        }*@
+                    @using (Html.BeginForm())
+                    {
+                        @Html.ActionLink("Voeg toe", "Toevoegen", new { tamagotchiID = item.Id, id = Model.Kamer.FirstOrDefault().Id }, new { @class = "btn btn-primary", @style = "color:white" })
+                    }
+                    @*<input type="button" name="response" value="Voeg Toe" formaction=@Url.Action("boeken", new { item}) formmethod="post" class="btn btn-primary" />*@
+                    @*<input type="submit" value="Voeg toe" class="btn btn-default" style="float: right;" @Html.Action("Boeken", new { item }) />*@
+                    @*@Html.ActionLink("Voeg toe", "Boeken", "Boekingscontroller", new { @class = "btn btn-success" })*@
+                    @*als ik op deze klik zou de kamerid van dit item veranderd moeten worden naar model.Kamer.FirstOrDefault().Id*@
+                </td>
+            </tr>
+
+        }
+    }
+    @*Second option*@
+    @if (Model.Kamer.ToList().FirstOrDefault().KamerType == "VechtKamer" || Model.Kamer.ToList().FirstOrDefault().KamerType == "GameKamer")
+    {
+        foreach (var item in Model.Tamagotchi)
+        {
+            if (item.Centjes >= 20)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Naam)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Kleur)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Leeftijd)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Centjes)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Level)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Gezondheid)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Verveling)
+                    </td>
+                    <td>
+
+                        @using (Html.BeginForm())
+                        {
+                            @Html.ActionLink("Voeg toe", "Toevoegen", new { tamagotchiID = item.Id, id = Model.Kamer.FirstOrDefault().Id }, new { @class = "btn btn-primary", @style = "color:white" })
+                        }
+
+                    </td>
+                </tr>
+            }
+        }
+    }
+
+    @*Thrid option*@
+    @if (Model.Kamer.ToList().FirstOrDefault().KamerType == "RustKamer")
+    {
+        foreach (var item in Model.Tamagotchi)
+        {
+            if (item.Centjes >= 10)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Naam)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Kleur)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Leeftijd)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Centjes)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Level)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Gezondheid)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Verveling)
+                    </td>
+                    <td>
+
+                        @using (Html.BeginForm())
+                        {
+                            @Html.ActionLink("Voeg toe", "Toevoegen", new { tamagotchiID = item.Id, id = Model.Kamer.FirstOrDefault().Id }, new { @class = "btn btn-primary", @style = "color:white" })
+                        }
+
+                    </td>
+                </tr>
+            }
+        }
+    }
+
+    @*fourth option*@
+    @if (Model.Kamer.ToList().FirstOrDefault().KamerType == "VerfKamer")
+    {
+        foreach (var item in Model.Tamagotchi)
+        {
+            if (item.Centjes >= 50)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Naam)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Kleur)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Leeftijd)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Centjes)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Level)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Gezondheid)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Verveling)
+                    </td>
+                    <td>
+
+                        @using (Html.BeginForm())
+                        {
+                            @Html.ActionLink("Voeg toe", "Toevoegen", new { tamagotchiID = item.Id, id = Model.Kamer.FirstOrDefault().Id }, new { @class = "btn btn-primary", @style = "color:white" })
+                        }
+
+                    </td>
+                </tr>
+            }
+        }
+    }
+</table>
+<h2>Toegevoegde Tamagotchis</h2>
+<table class="table">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Naam
+        </th>
+        <th>
+            Kleur
+        </th>
+        <th>
+            Leeftijd
+        </th>
+        <th>
+            Centjes
+        </th>
+        <th>
+            Level
+        </th>
+        <th>
+            Gezondheid
+        </th>
+        <th>
+            Verveling
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.Kamer.ToList().FirstOrDefault().Tamagotchi.ToList())
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Naam)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kleur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Leeftijd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Centjes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Level)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gezondheid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Verveling)
+            </td>
+            <td>
+                @using (Html.BeginForm())
+                {
+                    @Html.ActionLink("Verwijder", "DeleteUitLijst", new { tamagotchiID = item.Id }, new { @class = "btn btn-primary", @style = "color:white" })
+                }
+
+            </td>
+        </tr>
+
+    }
+
+</table>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

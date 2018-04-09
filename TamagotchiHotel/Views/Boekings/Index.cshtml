@@ -1,0 +1,75 @@
+﻿@using TamagotchiHotel.ViewModels
+@model BoekingViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<h2>Levende Tamagotchis</h2>
+<table class="table">
+    <tr>
+        <th>
+            Naam
+        </th>
+        <th>
+            KamerID
+        </th>
+        <th>
+            Kamer Type
+        </th>
+    </tr>
+
+    @foreach (var item in Model.Tamagotchi)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Naam)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HotelKamer.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HotelKamer.KamerType)
+            </td>
+        </tr>
+    }
+</table>
+
+  
+<h2>Vrije Kamers</h2>
+<table class="table">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Hoeveelheid bedden
+        </th>
+        <th>
+            Kamer type
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.Kamer)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoeveelheidBedden)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KamerType)
+            </td>
+            <td>
+                @*als we eem kamer editen waar tamagotchis in zitten dan gaat het mis met geld als een kamer duurder is*@
+                @Html.ActionLink("KamerBoeken", "Boeken", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
